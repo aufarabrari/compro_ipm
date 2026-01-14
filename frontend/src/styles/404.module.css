@@ -1,0 +1,71 @@
+/* Container utama satu layar penuh */
+.container {
+	height: 100vh;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #0f172a;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer; /* Biar kursor jadi tangan pas dihover */
+}
+
+/* Wrapper gambar */
+.imageWrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: all 0.5s ease; /* Transisi halus */
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6); /* Warna hitam, transparansi 60% */
+	opacity: 0; /* Awalnya tidak terlihat */
+	z-index: 5;
+	transition: opacity 0.5s ease; /* Muncul pelan-pelan */
+}
+
+/* Wrapper tombol */
+.buttonWrapper {
+	position: absolute;
+	/* Posisi di tengah. Kalau mau di bawah, ubah 'top' jadi 'bottom: 10%' */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.9); /* Awalnya agak kecil */
+	z-index: 10;
+	opacity: 0; /* Awalnya tombol tidak terlihat */
+	transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Efek 'mantul' sedikit saat muncul */
+}
+
+.container:hover .overlay {
+	opacity: 1;
+}
+
+.container:hover .buttonWrapper {
+	opacity: 1;
+	transform: translate(-50%, -50%) scale(1);
+}
+
+.buttonLink {
+	display: inline-block;
+	background-color: #ca8a04;
+	color: white;
+	padding: 1rem 2.5rem;
+	border-radius: 50px;
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 0 4px 15px rgba(202, 138, 4, 0.4);
+	transition: transform 0.3s ease, background-color 0.3s ease;
+	font-family: var(--font-body-family), sans-serif;
+}
+
+.buttonLink:hover {
+	background-color: #a16207;
+	transform: scale(1.05);
+}

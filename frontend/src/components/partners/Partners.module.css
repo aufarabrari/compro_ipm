@@ -1,0 +1,35 @@
+.section {
+	padding: 3rem 2rem;
+	background-color: #f8fafc;
+	text-align: center;
+	border-bottom: 1px solid #e2e8f0;
+}
+
+.title {
+	font-size: 0.9rem;
+	font-weight: 700;
+	color: #64748b;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 2rem;
+}
+
+.grid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 3rem;
+}
+
+.logoWrapper {
+	opacity: 0.6;
+	transition: all 0.3s;
+	filter: grayscale(100%);
+}
+
+.logoWrapper:hover {
+	opacity: 1;
+	filter: grayscale(0%);
+	transform: scale(1.05);
+}

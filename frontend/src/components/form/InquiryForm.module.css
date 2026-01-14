@@ -1,0 +1,90 @@
+.container {
+	background: white;
+	padding: 2.5rem;
+	border-radius: 12px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+	border: 1px solid #e2e8f0;
+}
+
+.title {
+	color: #0f172a; /* Navy */
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+}
+
+.inputGroup {
+	margin-bottom: 1.2rem;
+}
+
+.label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: #333;
+}
+
+.input,
+.textarea {
+	width: 100%;
+	padding: 0.8rem;
+	border: 1px solid #cbd5e1;
+	border-radius: 6px;
+	font-family: inherit;
+	font-size: 1rem;
+	box-sizing: border-box;
+}
+
+.input:focus,
+.textarea:focus {
+	outline: none;
+	border-color: #0f172a;
+	box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.1);
+}
+
+.submitBtn {
+	display: block;
+	margin: 0;
+	width: 100%;
+	padding: 1rem;
+	box-sizing: border-box;
+	background-color: #0f172a;
+	color: white;
+	border: none;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: medium;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+
+.submitBtn:hover {
+	background-color: #1e293b;
+}
+
+.submitBtn:disabled {
+	background-color: grey;
+	color: #94a3b8;
+	cursor: not-allowed;
+	transform: none;
+}
+
+/* Pesan Error/Sukses */
+.success {
+	color: green;
+	margin-bottom: 1rem;
+	font-size: 0.9rem;
+}
+.error {
+	color: red;
+	margin-bottom: 1rem;
+	font-size: 0.9rem;
+}
+
+.errorMessage {
+	color: red;
+	font-size: 0.8rem;
+	margin-top: -1rem;
+	margin-bottom: 1 rem;
+	display: block;
+}
