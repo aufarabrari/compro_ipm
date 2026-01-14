@@ -1,14 +1,16 @@
 # 🏢 [PT. INLED PUTRA MANDIRI Company Profile]
 
-# AOZORA PROJECT-HIKARU #1
+# AOZORA PROJECT-HIKARI #1
 
 > A modern, fullstack company profile built with **Next.js** and **Express.js**.
 > Featuring immersive UI animations and a robust email notification system.
 
 ![Project Preview]
 
-> [Homepage](https://imgur.com/a/2RV9aDI) > [About Us](https://imgur.com/a/aof9Nfm)
-> [Services](https://imgur.com/a/jafnie0) > [404](https://imgur.com/a/2BCj02B)
+> [Homepage](https://imgur.com/a/2RV9aDI)
+> [About Us](https://imgur.com/a/aof9Nfm)
+> [Services](https://imgur.com/a/jafnie0)
+> [404](https://imgur.com/a/2BCj02B)
 
 ## 🌟 Key Features
 
@@ -41,3 +43,4 @@ This project is divided into two main parts:
 ---
 
 _Created by Muhammad Aufar Abrari - Part of Project Aozora Ecosystem._
+
