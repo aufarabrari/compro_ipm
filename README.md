@@ -5,12 +5,21 @@
 > A modern, fullstack company profile built with **Next.js** and **Express.js**.
 > Featuring immersive UI animations and a robust email notification system.
 
-![Project Preview]
+[Project Preview]
 
-> [Homepage](https://imgur.com/a/2RV9aDI)
-> [About Us](https://imgur.com/a/aof9Nfm)
-> [Services](https://imgur.com/a/jafnie0)
-> [404](https://imgur.com/a/2BCj02B)
+<img width="1366" height="768" alt="Home Page - Hero Section" src="https://github.com/user-attachments/assets/eb05dda9-4747-453a-a74a-9783d9edaaef" />
+
+<img width="1366" height="768" alt="Home Page - Trusted Partners)" src="https://github.com/user-attachments/assets/4e9890d9-4d5a-4835-9e96-9dd250d3660b" />
+
+<img width="1366" height="768" alt="Home Page - Services Card" src="https://github.com/user-attachments/assets/c1ea74a6-a1b0-43f6-91be-953d7f9edd49" />
+
+<img width="1366" height="768" alt="Home Page - Backend Integrated Inquiry Form" src="https://github.com/user-attachments/assets/c439daf5-7844-4b1c-be00-27e469b404f7" />
+
+<img width="325" height="541" alt="Mobile - Home Page" src="https://github.com/user-attachments/assets/61cf6def-7731-494b-99fa-f3421e9e2a09" />
+
+<img width="326" height="547" alt="Mobile - Trusted Partners" src="https://github.com/user-attachments/assets/eb640366-d80d-4cb4-837e-9dc1b8b2c22f" />
+
+
 
 ## 🌟 Key Features
 
@@ -43,4 +52,5 @@ This project is divided into two main parts:
 ---
 
 _Created by Muhammad Aufar Abrari - Part of Project Aozora Ecosystem._
+
 
