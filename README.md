@@ -15,6 +15,8 @@
 
 <img width="1366" height="768" alt="Home Page - Backend Integrated Inquiry Form" src="https://github.com/user-attachments/assets/c439daf5-7844-4b1c-be00-27e469b404f7" />
 
+<img width="1366" height="768" alt="Email to Client" src="https://github.com/user-attachments/assets/6526590e-b46c-4535-a127-076ba2b4bf77" />
+
 <img width="325" height="541" alt="Mobile - Home Page" src="https://github.com/user-attachments/assets/61cf6def-7731-494b-99fa-f3421e9e2a09" />
 
 <img width="326" height="547" alt="Mobile - Trusted Partners" src="https://github.com/user-attachments/assets/eb640366-d80d-4cb4-837e-9dc1b8b2c22f" />
@@ -55,6 +57,7 @@ This project is divided into two main parts:
 ---
 
 _Created by Muhammad Aufar Abrari - Part of Project Aozora Ecosystem._
+
 
 
 
